@@ -1,0 +1,58 @@
+1) How did viewing a diff between two versions help you spot the bug?
+
+Seeing the changes reduced the number of places to search for the bug.
+
+2) How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Having this history would help trace when bugs were introduced, allow recovery
+of removed code, or revert to a previous version. All of these make programming
+more efficient by saving time.
+
+3) What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+
+The pros and cons of manually pushing commits instead of automatic saves are as
+follows:
+
+# Git Pros/Cons
+Pros:
+* Each commit is intentional and in the case of git will have a summary.
+* Each commit should be a complete piece of work.
+Cons:
+* Items won't automatically be on the cloud.
+
+# Google Docs Pros/Cons
+Pros:
+* Items will always be up to date on the cloud.
+Cons:
+* Items may be incomplete and may not compile.
+
+4) Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+Version control systems like Git are designed to help programmers develop
+software in a concise fashion that will always be in production ready state.
+On the other hand, software like Google Docs focuses on revisions on single
+files with no concern about state. These saves are geared intended to prevent
+loss of data more than having a complete document at any revision point.
+
+5) How can you use the commands git log and git diff to view the history of
+files?
+
+You can use `git log` to find commit ID's along with their summary of changes.
+You can use `git diff` with the ID's located with `git log` to see the changes
+between the two commits.
+
+6) How might using version control make you more confident to make changes that
+could break something?
+
+Using version control would make you more confident because it allows you to
+revert back to a previous version if you incidentally do break something.
+
+7) Now that you have your workspace set up, what do you want to try using Git
+for?
+
+I want to use Git for my Udacity projects as well as for future work projects.
