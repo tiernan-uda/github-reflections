@@ -4,3 +4,9 @@ your work local?
 You would want to use a remote repository when you are collaborating with
 others or when you would like a backup in the cloud. I feel like you should
 always keep a remote repository.
+
+# 2. Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+You would want to pull remote changes manually so that nothing overwrites or
+breaks the changes you have made before you are ready to commit.
