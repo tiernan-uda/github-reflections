@@ -9,3 +9,48 @@ repository? What value do you think it offers?
 The staging area contains only the files Git is tracking as opposed to the
 working directory which contains all physical files in the directory. This adds
 value by allowing you to hand-select which files will be added to each commit.
+
+# 3. How can you use the staging area to make sure you have one commit per
+logical change?
+
+You can use the staging area to group only files that represent a logical
+change before commiting them. This allows you to separate changes to files
+into multiple commits.
+
+# 4. What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches would help while developing experiemental or additional features. The
+branches would allow you to develop these features alongside the main branch
+before eventually merging or scrapping them. This allows you to still continue
+work on the master branch and only introduce the features once they are
+complete.
+
+# 5. How do the diagrams help you visualize the branch structure?
+
+Diagrams allow you to see where each branch began and let you compare each
+branches' commits in a timeline.
+
+# 6. What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+A new commit is made referencing history from both branches. This commit is the
+new tip of both branches. This is represented in the digram to show where the
+branches diverged and then merged back together.
+
+# 7. What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+## Automatic Merging
+Pros:
+* Saves time.
+* Should prompt if there are merge conflicts to be handled manually.
+Cons:
+* I would imagine as with anything automatic that there may be failure cases.
+
+## Manually Merging
+Pros:
+* Hand selecting the merges should lead to better results if done right.
+Cons:
+* This will take longer.
+* Subject to human error.
