@@ -1,0 +1,11 @@
+# 1. What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a metadata directory containing the files it needs to operate. You
+should do this so that you can use git for version control.
+
+# 2. How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The staging area contains only the files Git is tracking as opposed to the
+working directory which contains all physical files in the directory. This adds
+value by allowing you to hand-select which files will be added to each commit.
