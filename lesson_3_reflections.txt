@@ -10,3 +10,23 @@ automatically stay up-to-date with your remote repository?
 
 You would want to pull remote changes manually so that nothing overwrites or
 breaks the changes you have made before you are ready to commit.
+
+# 3. Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+Forks are specific to GitHub and represent cloning a remote repository to a new
+remote repository. Clones are copies of branches and can be remote to local or
+local only. Finally branches represent divergent tracking history for commits.
+
+You would use a branch to developer a new feature, fix a bug, or ideally in any
+situation where you would desire a concise unit of work completed before
+merging back into the master branch.
+
+You would clone a branch when you wanted to start a local repository to track
+changes locally before commiting to a remote base (or for your own personal)
+use.
+
+You would fork a repository when you do not have write permission to a
+repository and would like to develop on that code base. This allows the
+original author to see that you are using their base and will also allow you
+to publish pull requests in the future.
