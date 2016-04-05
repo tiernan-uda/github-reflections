@@ -44,3 +44,16 @@ I would use a different version control system such as Mercurial or Subversion.
 I imagine these systems are roughly the same although there would be a sharp
 learning curve to the way they do things. I cannot speak to the specifics of
 what would be harder or easier.
+
+# 6. When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+I think you should always make changes in a separate branch rather than master.
+Doing so would allow you to keep the master branch in production quality state,
+while developing and completing bug fixes, features, and other changes
+separately. Once the development branches are complete, you can merge them to
+master and delete them.
+
+The benefit of developing components in branches is that the master branch will
+always be a good state and avoid conflicts between commits. The benefits of
+directly modifying the master would be simplicity.
