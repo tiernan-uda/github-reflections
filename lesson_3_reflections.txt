@@ -36,3 +36,11 @@ stored locally?
 
 Having a copy of the remote stored locally is useful if you intend to work
 offline. While offline you can merge the remote and local changes.
+
+# 5. How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+I would use a different version control system such as Mercurial or Subversion.
+I imagine these systems are roughly the same although there would be a sharp
+learning curve to the way they do things. I cannot speak to the specifics of
+what would be harder or easier.
