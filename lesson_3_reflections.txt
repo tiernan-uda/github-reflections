@@ -30,3 +30,9 @@ You would fork a repository when you do not have write permission to a
 repository and would like to develop on that code base. This allows the
 original author to see that you are using their base and will also allow you
 to publish pull requests in the future.
+
+# 4. What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+Having a copy of the remote stored locally is useful if you intend to work
+offline. While offline you can merge the remote and local changes.
